@@ -1,0 +1,17 @@
+{
+  "orgId": 1,
+  "name": "serviceMetrics",
+  "type": "influxdb",
+  "typeLogoUrl": "public/app/plugins/datasource/influxdb/img/influxdb_logo.svg",
+  "access": "direct",
+  "url": "http://localhost:8086",
+  "password": "admin123",
+  "user": "admin",
+  "database": "serviceMetricsDb",
+  "basicAuth": false,
+  "isDefault": true,
+  "jsonData": {
+    "httpMode": "GET"
+  },
+  "readOnly": false
+}
